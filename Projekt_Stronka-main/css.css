@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+header{
+height: 200px;
+padding-left: 15%;
+padding-right: 15%;
+}
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin:30px; 
+    padding: 5px;
+    
+}
+#nav{
+    padding-top: 75px;
+}
+#blackHeart{
+    height: 25px;
+}
+#profile{
+    height: 25px;
+}
+#logo{
+    width: 200px;
+    float: left;
+}
+#searchDiv{  
+    background-color: white;
+    padding-left: 15%;
+padding-right: 15%;
+height: 450px;
+text-align: center;
+}
+#searchText{
+    margin-left: 40px;
+    text-align: center;
+    float: left;
+    font-size: 40px;
+}
+#search{
+
+    float: left;
+   
+}
+#house{
+    height: 470px;
+    float:right;
+}
+#add{
+    background-color: #7CC0FF;
+    border-radius: 10px;
+}
+select{
+    width: 225px;
+    margin:25px;
+    height:50px;
+}
+#cityChoose{
+    width: 500px;
+}
+#submit{
+    background-color:#7CC0FF ;
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    border:none;
+}
+#top{
+    padding-left: 15%;
+    padding-right: 15%;
+
+    
+}
+#topProperty{
+    font-size: 25px;
+    font-style: bold;
+    margin-left: 5px;
+}
+footer{
+    
+    background-color: #D5D5D5;
+    padding: 20px;
+}
+#aFooter{
+    
+    font-size: 20px;
+    margin-left: 60px;  
+}
+iframe {
+    border: 1px solid;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}

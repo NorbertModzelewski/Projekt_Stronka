@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Strona Głowna </title>
+    <meta charset='UTF-8'>
+    <link rel='stylesheet' href='css.css'>
+	<script src="skrypty.js"> </script>
+</head>
+<body>
+    
+    <header>
+        
+        
+        <a href="StronaGlowna.html">
+            <img src="logo.png" id="logo">
+           </a>
+        <div id="nav">
+		
+            <a href="Mieszkania.html">&nbsp &nbsp &nbsp Mieszkania</a>
+            <a href="mapa.html">&nbsp &nbsp Mapa &nbsp &nbsp</a>
+            <a href="dodajOgloszenie.html" id="add"> + Dodaj ogłoszenie</a>
+			<a href="zmieni_sie_pozniej.html"> &nbsp &nbsp &nbsp &nbsp <img src="czglowa.png" id="glowa"> </a>
+            <a href="polubione.html"> <img src="blackHeart.png" id="blackHeart"> </a>
+            <a href="konto.html"><img src="profile.png" id="profile"></a>
+        </div>
+        
+
+       
+    </header>
+    <div id="main">
+        <div id="searchDiv">
+          
+           <p id="searchText"> Znajdz miejsce zamieszkania <br> Twoich marzeń!</p>
+          
+           
+           <img src="house.png" id="house">
+           <br><br>
+           <br><br>
+           <br><br>
+           <br><br>
+           <br><br>
+        
+           <form id="search">
+		  
+            <select id="serviceChoose">
+			
+                <option>--usługa--</option>
+                <option>Wynajem</option>
+                <option>Sprzedaż</option>
+              </select>
+            
+              <select id="typeChoose">
+			  
+                <option>--typ nieruchomości--</option>
+                <option>Dom</option>
+                <option>Mieszkanie</option>
+              </select>
+              <br>
+			  
+              <select id="cityChoose">
+                <option>--miasto--</option>
+                <option>Gdańsk</option>
+                <option>Warszawa</option>
+              </select><br>
+              <input type="submit" id="submit" value="Szukaj">
+           </form>
+           
+
+
+
+        </div>
+        <div id="top">
+            <p id="topProperty">Najpopularniejsze mieszkania</p>
+            <hr>
+            <div id="ogloszenia">
+			<img src="dom1.png" id="picture">
+			<div id="dane">
+			<p id="topDane">Gdańsk Brzeźno</p>
+			<p id="Ul">Słoneczne wzgórze ul. Kwiatowa</p>
+			<p id="midDane">Dom na sprzedaż, dodane 22-10-2021</p>
+			<p id="dDane"><b>4 </b>pokoje   <b> 150</b> m²    <b>2</b> piętra</p>
+			<p id="dolDane">
+TRAKCYJNY DOM WOLNOSTOJĄCY, GDAŃSK
+ATUTY NIERUCHOMOŚCI:
+- wysoka jakość użytych materiałów budowlanych i wykończeniowych, 
+- przestronne, wygodne do adaptacji pomieszczenia,
+</p>
+ <p id="dolDane"> .....</p>
+<br><br>
+<p id="kDane"><img src="blackHeart.png" id="blackHeart1" onclick="fSetImg1()"> Ulubione &nbsp &nbsp &nbsp &nbsp <img src="oko.png" id="blackHeart2">  Ukryj</p>
+			</div>
+			<div id="cena">
+			<p id="ccena">839 000 zł</p>
+			<p id="cenam">7359,65 zł/m²</p>
+			
+			
+			</div>
+			</div>
+			<br>
+                <div id="ogloszenia">
+			<img src="dom2.png" id="picture">
+			<div id="dane">
+			<p id="topDane">Gdańsk Łostowice</p>
+			<p id="Ul">Modernistyczna brzoza ul. Wiosenna</p>
+			<p id="midDane">Dom na sprzedaż, dodane 15-10-2021</p>
+			<p id="dDane"><b>6 </b>pokoje   <b> 273</b> m²    <b>3</b> piętra</p>
+			<p id="dolDane">
+
+
+DOM: na sprzedaż 3-kondygnacyjny (przyziemie, parter i piętro), jasny, funkcjonalny a przy tym bardzo ustawny6-pokojowy  w zabudowie bliźniaczej. Usytuowany w Gdańsku (dzielnica Łostowice). 
+Dom został wykończony z zastosowaniem wysokiej jakości materiałów:
+- brama garażowa WIŚNIOWSKI sterowana z pilota,
+</p>
+ <p id="dolDane"> .....<br><br></p>
+
+<p id="kDane"><img src="blackHeart.png" id="blackHeart3" onclick="fSetImg2()"> Ulubione &nbsp &nbsp &nbsp &nbsp <img src="oko.png" id="blackHeart2">  Ukryj</p>
+			</div>
+			<div id="cena">
+			<p id="ccena">958 000 zł</p>
+			<p id="cenam">9412,25 zł/m²</p>
+			
+			
+			</div>
+			</div>
+			<br>
+             
+			<br>
+
+        </div>
+
+    </div>
+<footer>
+
+<a id="aFooter">Regulamin</a><a id="aFooter">Kontakt</a><a id="aFooter">Usługi</a><a id="aFooter">Inwestycje deweloperskie</a>
+
+<img src="twitter.png" id="ikona1"> <img src="facebook.png" id="ikona"> <img src="instagram.png" id="ikona"> <img src="email.png" id="ikona">
+</footer>   
+</body>
+</html>
