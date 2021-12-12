@@ -96,19 +96,7 @@ select{
     font-style: bold;
     margin-left: 5px;
 }
-footer{
-    clear:both;
-    background-color: #D5D5D5;
-    padding: 20px;
-	height: 40px;
-}
-#aFooter{
-	margin: 5px;
-	
-    float:left;
-    font-size: 17px;
-    margin-left: 70px;  
-}
+
 #ogloszenia {
     
     width: 100%;
@@ -127,13 +115,18 @@ footer{
 	margin-right: 60px;
 }
 #picture{
-	float:left;
-	height: 251px;
-	width:251px;
+	
+	height: 400px;
+	width:550px;
 	margin-right:10px;
 }
+#minipic{
+	margin:13px;
+	height: 100px;
+	width:150px;
+}
 #dane{
-	padding:15px;
+	padding:10px;
 	float:left;
 	width:400px
 }
@@ -175,31 +168,90 @@ footer{
 	font-size:18px;
 	color: #3E3E3E;
 }
-#blackHeart2{
-    height: 25px;
+
+#zdjecia{
+	float:left;
+	width:550px;
+	margin:0;
+}
+#kontakt{
+		float:left;
+	background-color:white;
+	width:325px;
+	height:600px;
+	margin-left:10px;
+}
+#info{
+	clear:both;
+	width:900px;
+	height:400px;
+	background-color:white;
+	
+	
+}
+#opis{
+	clear:both;
+	
+}
+#satelita{
+clear:both;
+margin-bottom:1000px;
+}
+#main{
+	height: 100px;
+padding-left: 15%;
+padding-right: 15%;
+width:900px;
+padding-top:10px;
 }
 #cena{
 	float:right;
-	padding:20px;
-	width:200px;
-	height:100px;
+	padding:10px;
+	width:100px;
+	
 }
 #ccena{
 	font-weight:700;
-	font-size:25px;
+	font-size:15px;
 	padding:0px;
 	margin:0px;
 	text-align:center;
 }
 #cenam{
 	color:grey;
-	font-size:15px;
+	font-size:10px;
 	margin:0px;
 	padding-top:0px;
 	text-align:center;
 }
-#blackHeart3{
-    height: 20px;
+footer{
+    clear:both;
+    background-color: #D5D5D5;
+    padding: 20px;
+	height: 40px;
+ position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
 }
-
+#aFooter{
+	margin: 5px;
+    float:left;
+    font-size: 17px;
+    margin-left: 70px;  
+}
+#infolewo{
+	float:left;
+	margin-right:20px;
+}
+#infoprawo{
+	float:left;
+}
+#infoodp{
+	font-weight:bold;
+	font-size:medium;
+}
+#satimg{
+	
+}
 
