@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Mieszkania </title>
+    <meta charset='UTF-8'>
+    <link rel='stylesheet' href='css.css'>
+	<script src="skrypty.js"> </script>
+</head>
+<body>
+    
+    <header>
+        
+        <a href="StronaGlowna.html">
+         <img src="logo.png" id="logo">
+        </a>
+        <div id="nav">
+		
+            <a href="Mieszkania.html">&nbsp &nbsp &nbsp Mieszkania</a>
+            <a href="mapa.html">&nbsp &nbsp Mapa &nbsp &nbsp</a>
+            <a href="dodajOgloszenie.html" id="add"> + Dodaj ogłoszenie</a>
+			<a href="zmieni_sie_pozniej.html"> &nbsp &nbsp &nbsp &nbsp <img src="czglowa.png" id="glowa"> </a>
+            <a href="polubione.html"> <img src="blackHeart.png" id="blackHeart"> </a>
+            <a href="konto.html"><img src="profile.png" id="profile"></a>
+        </div>
+        
+
+       
+    </header>
+
+    <div id="filtry">
+        <div id="cheekbox1">
+        <input type="radio" id="sprzedaż" name="sprzedaż" value="Sprzedaż">
+    <label for="sprzedaż"> Sprzedaż</label><br>
+    </div>
+    <div id="cheekbox2">
+    <input type="radio" id="wynajem" name="wynajem" value="wynajem">
+    <label for="wynajem"> Wynajem</label><br>
+</div>
+<br>
+<div id="search1">
+    <h4>Rodzaj nieruchomości</h4>
+<select id="serviceChoose">
+    <option>Mieszkanie</option>
+    <option>Wynajem</option>
+    <option>Sprzedaż</option>
+  </select>
+</div>
+<div id="search2">
+    <h4>Pokaż lokalizacje</h4>
+    <select id="serviceChoose">
+        <option>Gdańsk</option>
+        <option>Miasto1</option>
+        <option>Miasto2</option>
+      </select>
+    </div>
+    <h4>Powierzchnia w m²</h4>
+<div id="search3">
+    
+    <select id="sizeChoose">
+        <option>od</option>
+        <option>mało</option>
+        <option>dużo</option>
+      </select>
+</div>
+<div id="search3v2">
+    <select id="sizeChoosev2">
+        <option>do</option>
+        <option>mało</option>
+        <option>dużo</option>
+      </select>
+</div>
+<h4>Cena w zł</h4>
+<div id="search4">
+    
+    <select id="sizeChoose">
+        <option>od</option>
+        <option>mało</option>
+        <option>dużo</option>
+      </select>
+</div>
+<div id="search4v2">
+    <select id="sizeChoosev2">
+        <option>do</option>
+        <option>mało</option>
+        <option>dużo</option>
+      </select>
+</div>
+<h4>Cena w m²</h4>
+<div id="search5">
+    
+    <select id="sizeChoose">
+        <option>od</option>
+        <option>mało</option>
+        <option>dużo</option>
+      </select>
+</div>
+<div id="search5v2">
+    <select id="sizeChoosev2">
+        <option>do</option>
+        <option>mało</option>
+        <option>dużo</option>
+      </select>
+</div>
+<div id="guzik">
+    <input id="button" type="button" value="Zaawansowane ↓">
+</div>
+</div>
+
+
+
+        <div id="top1">
+            
+            <p id="topProperty">Najpopularniejsze mieszkania</p>
+            <hr>
+            <div id="ogloszenia">
+			<img src="dom1.png" id="picture">
+			<div id="dane">
+			<p id="topDane">Gdańsk Brzeźno</p>
+			<p id="Ul">Słoneczne wzgórze ul. Kwiatowa</p>
+			<p id="midDane">Dom na sprzedaż, dodane 22-10-2021</p>
+			<p id="dDane"><b>4 </b>pokoje   <b> 150</b> m²    <b>2</b> piętra</p>
+			<p id="dolDane">
+TRAKCYJNY DOM WOLNOSTOJĄCY, GDAŃSK
+ATUTY NIERUCHOMOŚCI:
+- wysoka jakość użytych materiałów budowlanych i wykończeniowych, 
+- przestronne, wygodne do adaptacji pomieszczenia,
+</p>
+ <p id="dolDane"> .....</p>
+<br><br>
+<p id="kDane"><img src="blackHeart.png" id="blackHeart1" onclick="fSetImg1()"> Ulubione &nbsp &nbsp &nbsp &nbsp <img src="oko.png" id="blackHeart2">  Ukryj</p>
+			</div>
+			<div id="cena">
+			<p id="ccena">839 000 zł</p>
+			<p id="cenam">7359,65 zł/m²</p>
+			
+			
+			</div>
+			</div>
+			<br>
+                <div id="ogloszenia">
+			<img src="dom2.png" id="picture">
+			<div id="dane">
+			<p id="topDane">Gdańsk Łostowice</p>
+			<p id="Ul">Modernistyczna brzoza ul. Wiosenna</p>
+			<p id="midDane">Dom na sprzedaż, dodane 15-10-2021</p>
+			<p id="dDane"><b>6 </b>pokoje   <b> 273</b> m²    <b>3</b> piętra</p>
+			<p id="dolDane">
+
+
+DOM: na sprzedaż 3-kondygnacyjny (przyziemie, parter i piętro), jasny, funkcjonalny a przy tym bardzo ustawny6-pokojowy  w zabudowie bliźniaczej. Usytuowany w Gdańsku (dzielnica Łostowice). 
+Dom został wykończony z zastosowaniem wysokiej jakości materiałów:
+- brama garażowa WIŚNIOWSKI sterowana z pilota,
+</p>
+ <p id="dolDane"> .....<br><br></p>
+
+<p id="kDane"><img src="blackHeart.png" id="blackHeart3" onclick="fSetImg2()"> Ulubione &nbsp &nbsp &nbsp &nbsp <img src="oko.png" id="blackHeart2">  Ukryj</p>
+			</div>
+			<div id="cena">
+			<p id="ccena">958 000 zł</p>
+			<p id="cenam">9412,25 zł/m²</p>
+
+			
+			
+			</div>
+			</div>
+            
+			<br>
+            <div id="ogloszenia">
+                <img src="dom3.png" id="picture">
+                <div id="dane">
+                <p id="topDane">Gdańsk Jasień</p>
+                <p id="Ul">Geometria ul. Źródlana</p>
+                <p id="midDane">Dom na sprzedaż, dodane 24-10-2021</p>
+                <p id="dDane"><b>7 </b>pokoje   <b> 250</b> m²    <b>2</b> piętra</p>
+                <p id="dolDane">
+                    Zaprojektowany z myślą o inwestorach posiadających wąską działkę, gdyż
+                     wymiary budynku dają możliwość ciekawego zagospodarowania
+                      przestrzeni wokół domu. Dom posiada prostą bryłę, przez co jest tani w
+                       budowie. Projekt ma usytuowaną kalenicę prostopadle do drogi, co jest
+                        istotne ze względu na wymagania określone w planie zagospodarowania
+                         przestrzennego. 
+    </p>
+     <p id="dolDane"> .....</p>
+    <br><br>
+    <p id="kDane"><img src="blackHeart.png" id="blackHeart4" onclick="fSetImg3()"> Ulubione &nbsp &nbsp &nbsp &nbsp <img src="oko.png" id="blackHeart2">  Ukryj</p>
+                </div>
+                <div id="cena">
+                <p id="ccena">1 900 000 zł</p>
+                <p id="cenam">17359,65 zł/m²</p>
+                
+                
+                </div>
+                </div>
+			<br>
+
+        </div>
+
+    </div>
+<footer>
+
+<a id="aFooter">Regulamin</a><a id="aFooter">Kontakt</a><a id="aFooter">Usługi</a><a id="aFooter">Inwestycje deweloperskie</a>
+
+<img src="twitter.png" id="ikona1"> <img src="facebook.png" id="ikona"> <img src="instagram.png" id="ikona"> <img src="email.png" id="ikona">
+</footer>   
+</body>
+</html>
